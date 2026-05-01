@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Straddie Disaster Kiosks</title>
+    <style>
+      :root {
+        --ink: #101020;
+        --panel: #202030;
+        --aqua: #5fd8ff;
+        --green: #62f6a5;
+        --gold: #ffd166;
+        --white: #f7f3ff;
+        --muted: #c9c3de;
+      }
+      body {
+        background: radial-gradient(circle at 20% 0, rgba(95, 216, 255, 0.2), transparent 32rem), var(--ink);
+        color: var(--white);
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+      }
+      main {
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 4rem 1.25rem;
+      }
+      h1, h2, h3 {
+        line-height: 1.05;
+        margin: 0;
+      }
+      h1 {
+        font-size: clamp(2.6rem, 7vw, 5rem);
+        max-width: 10ch;
+      }
+      h2 {
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        margin-top: 3rem;
+      }
+      p {
+        color: var(--muted);
+        font-size: 1.12rem;
+      }
+      .eyebrow {
+        color: var(--green);
+        font-weight: 800;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+      .grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-top: 1.5rem;
+      }
+      .card {
+        background: linear-gradient(145deg, rgba(32, 32, 48, 0.95), rgba(16, 16, 32, 0.98));
+        border: 1px solid rgba(95, 216, 255, 0.22);
+        border-radius: 12px;
+        padding: 1.2rem;
+      }
+      .card strong {
+        color: var(--white);
+        display: block;
+        font-size: 1.2rem;
+      }
+      .button {
+        border: 1px solid rgba(95, 216, 255, 0.7);
+        border-radius: 8px;
+        color: var(--aqua);
+        display: inline-flex;
+        font-weight: 800;
+        margin-top: 1rem;
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+      }
+      @media (max-width: 760px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Minjerribah resilience concept</p>
+      <h1>Straddie Disaster Kiosks.</h1>
+      <p>Community Sovereign Kiosks are proposed offline-first local nodes for emergency communication, community information, digital access, and resilience planning on North Stradbroke Island / Minjerribah.</p>
+      <p>The idea is simple at the front: useful public touchpoints that can keep working when power, internet, ferries, phones, or mainland systems are under stress. Under the hood, the concept can grow into solar power, mesh communications, local data storage, digital twin access, and community coordination.</p>
+
+      <h2>What the kiosks may support</h2>
+      <div class="grid">
+        <article class="card"><strong>Emergency access</strong><p>Local alerts, offline messages, maps, coordination notes, and basic community information during disruptions.</p></article>
+        <article class="card"><strong>Everyday usefulness</strong><p>Device charging, local notices, digital literacy, visitor information, community services, and training touchpoints.</p></article>
+        <article class="card"><strong>Future resilience</strong><p>Mesh networks, digital twin data, community records, microgrid support, and locally governed public infrastructure.</p></article>
+      </div>
+
+      <h2>Current status</h2>
+      <p>This is a concept and pitch page, not a live emergency service. The next useful step is scoping: locations, partners, rough costs, public value, grant pathways, and a safe pilot kiosk.</p>
+      <a class="button" href="https://auraofintelligence.github.io/strange-but-true/community-ledger.html">Back to Community Ledger</a>
+    </main>
+  </body>
+</html>
